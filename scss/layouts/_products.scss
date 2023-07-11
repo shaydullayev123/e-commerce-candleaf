@@ -1,0 +1,75 @@
+.products {
+  background: #fff;
+  h2 {
+    margin-top: 90px;
+    color: #0b254b;
+    text-align: center !important;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57.6px;
+    letter-spacing: -0.9px;
+  }
+  p {
+    color: var(--dark-1, #5e6e89);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.6px;
+    letter-spacing: 0.1px;
+  }
+
+  .products-cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px !important;
+    margin-bottom: 125px;
+    // row-gap: 70px!important;
+    .card {
+      width: 271px;
+      height: 280px;
+      border: none !important;
+      margin-top: 40px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+      img {
+        width: 271px;
+        height: 210px;
+        // background: lightgray 50% / cover no-repeat;
+        background: #f7f8fa;
+        border-radius: 5px;
+      }
+
+      h3 {
+        color: #1d293f;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27.6px;
+        letter-spacing: -0.9px;
+        padding-left: 26px;
+        padding-top: 10px;
+        margin-bottom: 0 !important;
+      }
+
+      p {
+        color: var(--green, #56b280);
+        // text-align: right ;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27.6px;
+        margin-bottom: 10px;
+        padding-left: 190px;
+      }
+    }
+  }
+}

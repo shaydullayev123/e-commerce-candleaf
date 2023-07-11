@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Set the font family */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  height: 75px;
+  background: #fff;
+}
+header .navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+  gap: 80px;
+}
+header .navbar ul a {
+  color: var(--black, #272727);
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+header .navbar .nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .navbar .nav-icons a {
+  text-decoration: none;
+}
+header .navbar .nav-icons a img {
+  width: 34px !important;
+  height: auto !important;
+}
+header .hero-section {
+  background-image: url(../../images/header-img/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  height: 840px;
+  position: relative;
+  padding-top: 220px;
+}
+header .hero-section .hero-title {
+  position: static;
+  top: 230px;
+  left: 430px;
+  text-align: center;
+  padding-top: 40px;
+  width: 850px;
+  height: 349px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: rgba(247, 248, 250, 0.8);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+}
+header .hero-section .hero-title h1 {
+  color: #1d252c;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 57.6px;
+}
+header .hero-section .hero-title p {
+  color: #1d252c;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  display: flex;
+  width: 537px;
+  height: 56px;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-bottom: 45px;
+  margin-top: 10px;
+}
+header .hero-section .hero-title a {
+  display: inline-flex;
+  padding: 8px 44px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--green, #56b280);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20.645px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.features-bg {
+  background: #f7f8fa;
+}
+.features-bg .features {
+  background: #f7f8fa;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 103px;
+}
+.features-bg .features .feature-text h2 {
+  color: #1d252c;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46.6px;
+  letter-spacing: -0.9px;
+  width: 350px;
+}
+.features-bg .features .feature-text p {
+  color: var(--green, #56b280);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.8px;
+  margin-top: 15px;
+}
+.features-bg .features .feature-text .feature-benefits {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.features-bg .features .feature-text .feature-benefits .last-p {
+  margin-bottom: 70px !important;
+}
+.features-bg .features .feature-text .feature-benefits p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+.features-bg .features a {
+  padding: 8px 44px;
+  border-radius: 4px;
+  background: var(--green, #56b280);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20.645px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.products {
+  background: #fff;
+}
+.products h2 {
+  margin-top: 90px;
+  color: #0b254b;
+  text-align: center !important;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 57.6px;
+  letter-spacing: -0.9px;
+}
+.products p {
+  color: var(--dark-1, #5e6e89);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.6px;
+  letter-spacing: 0.1px;
+}
+.products .products-cards {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px !important;
+  margin-bottom: 125px;
+}
+.products .products-cards .card {
+  width: 271px;
+  height: 280px;
+  border: none !important;
+  margin-top: 40px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.products .products-cards .card img {
+  width: 271px;
+  height: 210px;
+  background: #f7f8fa;
+  border-radius: 5px;
+}
+.products .products-cards .card h3 {
+  color: #1d293f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.6px;
+  letter-spacing: -0.9px;
+  padding-left: 26px;
+  padding-top: 10px;
+  margin-bottom: 0 !important;
+}
+.products .products-cards .card p {
+  color: var(--green, #56b280);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.6px;
+  margin-bottom: 10px;
+  padding-left: 190px;
+}/*# sourceMappingURL=main.css.map */
